@@ -33,9 +33,11 @@
 
 # Ignore everything
 *
+
 # But descend into directories
 !*/
 
+# does not ignore .cpp and .h files
 !*.cpp
 !*.h
 
