@@ -1,2 +1,2 @@
-# CPP-OOP-Practice-Tasks
-Mostly practical tasks and exercises for Object Oriented Programming
+# CPPCourseEGT
+Practical examples, tasks and solutions made during C++ EGT Course
