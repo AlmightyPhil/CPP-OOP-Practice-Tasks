@@ -50,7 +50,7 @@
 !*.xml
 !*.json
 
-!*.DS_Store
+#!*.DS_Store
 
 
 # does not ignore the README.md file
