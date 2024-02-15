@@ -14,6 +14,6 @@ DeckRaffleShuffle
 - в игралното тесте(DeckOfCards) може да се добавят колкото искаме тестета от тип PlayingCards чрез метода
   void DeckOfCards::addPile(PlayingCards)
   
-- в игралното тесте(DeckOfCards) добавне функция void DeckOfCards::returnPlayedCardsToDeck(), 
+- в игралното тесте(DeckOfCards) е добавена функция void DeckOfCards::returnPlayedCardsToDeck(), 
   която връща изиграните карти DeckOfCards::currentPlayedCards обратно в сегашното състояние 
   на тестето(DeckOfCards::currentCardsInDeck)
