@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -13,11 +14,13 @@ public:
 	void formDeck();
 	void showDeck();
 	void shuffle();
+	vector<string> deck;
 
 private:
 
-	string type[13] = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
-	string suit[4] = {"Spades", "Diamonds", "Hearts", "Clubs"};
-	string deck[52];
+	vector<string> type = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
+	vector<string> suit{"Spades", "Diamonds", "Hearts", "Clubs"};
+	
+	// possible one more parameter to remembr which deck the cards belongs too
 
 };
