@@ -42,6 +42,16 @@
 !*.h
 
 !*.pdf
+!*.dll
+!*.jpg
+!*.bmp
+!*.png
+!*.jpeg
+!*.xml
+!*.json
+
+!*.DS_Store
+
 
 # does not ignore the README.md file
 !README.md
