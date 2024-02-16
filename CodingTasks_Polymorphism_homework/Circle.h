@@ -8,7 +8,14 @@ class Circle : public Shape
 {
 public:
 
-	Circle(string);
+	Circle(string, double);
+	~Circle();
 	void draw() const override;
+	double area() const override;
+	void printArea(Shape*) const override;
+
+private:
+
+	double radius;
 
 };

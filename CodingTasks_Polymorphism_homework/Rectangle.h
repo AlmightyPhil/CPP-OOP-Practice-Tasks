@@ -8,7 +8,15 @@ class Rectangle : public Shape
 {
 public:
 
-	Rectangle(string);
+	Rectangle(string, double, double);
+	~Rectangle();
 	void draw() const override;
+	double area() const override;
+	void printArea(Shape*) const override;
+
+private:
+
+	double width;
+	double height;
 
 };
