@@ -7,6 +7,14 @@
 
 using namespace std;
 
+void printArea(Shape* sPtr)
+{
+    double area;
+    area = sPtr->area();
+    cout << "Area is " << area << endl;
+
+}
+
 int main()
 {
 
@@ -14,15 +22,17 @@ int main()
     r1.draw();
     
     Shape* sPtr1 = &r1;
-    sPtr1->printArea(sPtr1);
+    printArea(sPtr1);
 
 
     Circle c1("red", 7.2);
     c1.draw();
 
     sPtr1 = &c1;
-    sPtr1->printArea(sPtr1);
+    printArea(sPtr1);
 
     return 0;
 }
+
+
 

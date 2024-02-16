@@ -18,12 +18,7 @@ void Rectangle::draw() const
 
 double Rectangle::area() const
 {
-	return this->width * this->height;
+	return this->height * this->width;
 }
 
-void Rectangle::printArea(Shape* sPtr) const
-{
-	double area;
-	area = sPtr->area();
-	cout << "Area is " << area << endl;
-}
+

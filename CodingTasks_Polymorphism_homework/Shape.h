@@ -15,6 +15,5 @@ public:
 	virtual ~Shape() {}
 	virtual void draw() const = 0;
 	virtual double area() const = 0;
-	virtual void printArea(Shape*) const = 0;
 
 };
